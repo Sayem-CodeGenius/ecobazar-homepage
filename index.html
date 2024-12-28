@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobazar</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- Preloader Begins -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Preloader Ends -->
+    <!-- HEADER BEGINS -->
+     <header>
+
+        <!-- Header Top  Begins -->
+        <section id="headerTop">
+            <div class="container">
+
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <p class="d-flex align-items-center justify-content-center justify-content-lg-start"> 
+                            <span ><svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 28 28"><path fill="currentColor" d="M14 2.25A9.75 9.75 0 0 1 23.75 12c0 4.12-2.895 8.61-8.61 13.518a1.75 1.75 0 0 1-2.283-.002l-.378-.328C7.017 20.408 4.25 16.028 4.25 12A9.75 9.75 0 0 1 14 2.25m0 1.5A8.25 8.25 0 0 0 5.75 12c0 3.502 2.548 7.537 7.714 12.057l.373.323a.25.25 0 0 0 .326 0c5.416-4.652 8.087-8.795 8.087-12.38A8.25 8.25 0 0 0 14 3.75m0 4.5a3.75 3.75 0 1 1 0 7.5a3.75 3.75 0 0 1 0-7.5m0 1.5a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5"/></svg></span> Store Location: Lincoln- 344, Illinois, Chicago, USA
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 text-end d-none d-lg-block">
+                       <ul>
+                        <li class="d-inline-block">
+                            <form action="">
+                                <select> 
+                                    <option value="">Eng</option>
+                                    <option value="">Bng</option>
+                                </select>
+                                <select> 
+                                    <option value="">USD</option>
+                                    <option value="">BDT</option>
+                                </select>
+                            </form>
+                        </li>
+                        <li class="d-inline-block">
+                            <a href="#">Sign In / Sign Up</a>
+                        </li>
+                       </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Header Top  Ends -->
+
+        <!-- Header Mid  Begins -->
+        <section id="headerMid">
+            <div class="container">
+                <!-- lg menu begins -->
+                <div class="lgMenu d-none d-lg-block">
+                    <div class="row align-items-center">
+                         <div class="logo col-lg-3">
+                            <a href="#"><img class="img-fluid" src="./images/Logo.png" alt="logo"></a>
+                         </div>
+                         <div class="search col-lg-6">
+                            <form action="">
+                                <div class="form-group">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17 17l4 4M3 11a8 8 0 1 0 16 0a8 8 0 0 0-16 0" />
+                                    </svg></span>
+                                    <input type="search" placeholder="Search">
+                                </div>
+                                <button>Search</button>
+                            </form>
+                         </div>
+                         <div class="cart col-lg-3">
+                            <ul class="d-flex">
+                                <li class="d-inline-block">
+                                    <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="m8.962 18.91l.464-.588zM12 5.5l-.54.52a.75.75 0 0 0 1.08 0zm3.038 13.41l.465.59zm-5.612-.588C7.91 17.127 6.253 15.96 4.938 14.48C3.65 13.028 2.75 11.335 2.75 9.137h-1.5c0 2.666 1.11 4.7 2.567 6.339c1.43 1.61 3.254 2.9 4.68 4.024zM2.75 9.137c0-2.15 1.215-3.954 2.874-4.713c1.612-.737 3.778-.541 5.836 1.597l1.08-1.04C10.1 2.444 7.264 2.025 5 3.06C2.786 4.073 1.25 6.425 1.25 9.137zM8.497 19.5c.513.404 1.063.834 1.62 1.16s1.193.59 1.883.59v-1.5c-.31 0-.674-.12-1.126-.385c-.453-.264-.922-.628-1.448-1.043zm7.006 0c1.426-1.125 3.25-2.413 4.68-4.024c1.457-1.64 2.567-3.673 2.567-6.339h-1.5c0 2.198-.9 3.891-2.188 5.343c-1.315 1.48-2.972 2.647-4.488 3.842zM22.75 9.137c0-2.712-1.535-5.064-3.75-6.077c-2.264-1.035-5.098-.616-7.54 1.92l1.08 1.04c2.058-2.137 4.224-2.333 5.836-1.596c1.659.759 2.874 2.562 2.874 4.713zm-8.176 9.185c-.526.415-.995.779-1.448 1.043s-.816.385-1.126.385v1.5c.69 0 1.326-.265 1.883-.59c.558-.326 1.107-.756 1.62-1.16z" />
+                                </svg>
+                                </a>
+                            </li>
+                                <li class="d-inline-block">
+                                    <a href="#">
+                                   <div class="d-flex cartLink">
+                                    <!-- Cart Off Canvas Begins -->
+                                    <a  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                        <!-- Cart icon -->
+                                        <div class="cartIcon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 256 256">
+                                                    <path fill="currentColor" d="m237.9 198.36l-14.25-120a14.06 14.06 0 0 0-14-12.36H174v-2a46 46 0 0 0-92 0v2H46.33a14.06 14.06 0 0 0-14 12.36l-14.25 120a14 14 0 0 0 14 15.64h191.84a14 14 0 0 0 14-15.64ZM94 64a34 34 0 0 1 68 0v2H94Zm131.5 137.3a2.07 2.07 0 0 1-1.58.7H32.08a2.07 2.07 0 0 1-1.58-.7a1.92 1.92 0 0 1-.49-1.53l14.26-120A2 2 0 0 1 46.33 78H82v26a6 6 0 0 0 12 0V78h68v26a6 6 0 0 0 12 0V78h35.67a2 2 0 0 1 2.06 1.77l14.26 120a1.92 1.92 0 0 1-.49 1.53" />
+                                                </svg>
+                                            <span class="cartCount">2</span>
+                                        </div>
+                                        <!-- Cart icon -->
+                                      </a>
+
+                                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                        <div class="offcanvas-header">
+                                          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Shopping Card (2)</h5>
+                                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            <div class="cardProduct">
+                                               <div class="row align-items-center product">
+                                                  <div class="col-5"><img class="img-fluid" src="./images/Shopping Card Product1.png" alt=""></div>
+                                                  <div class="col-6">
+                                                     <h6>Fresh Indian Orange</h6>
+                                                     <p>1 kg x <span>12.00</span></p>
+                                                  </div>
+                                                  <div class="col-1">
+                                                     <iconify-icon icon="charm:cross"></iconify-icon>
+                                                  </div>
+                                               </div>
+                                               <div class="row align-items-center product">
+                                                  <div class="col-5"><img class="img-fluid" src="./images/Shopping Card Product2.png" alt=""></div>
+                                                  <div class="col-6">
+                                                     <h6>Green Apple</h6>
+                                                     <p>1 kg x <span>14.00</span></p>
+                                                  </div>
+                                                  <div class="col-1">
+                                                     <iconify-icon icon="charm:cross"></iconify-icon>
+                                                  </div>
+                                               </div>
+                                            </div>
+                                            <div class="checkoutBtnBox">
+                                               <div class="d-flex justify-content-between">
+                                                  <span class="cardQuantity">2 Product</span>
+                                                  <span class="totalPrice">$26.00</span>
+                                               </div>
+                                               <a class="checkout d-block text-center" href="#">Checkout</a>
+                                               <a class="goToCart d-block text-center" href="#">Go To Cart</a>
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <!-- Cart Off Canvas Ends -->
+                                    <div class="text">
+                                        <p>Shopping cart:</p>
+                                        <h4>$57.00</h4>
+                                    </div>
+                                   </div>
+                                </a>
+                            </li>
+                            </ul>
+                         </div>
+                    </div>
+                </div>
+                <!-- lg menu ends -->
+                <!-- sm menu begins -->
+                <div class="smMenu d-lg-none">
+                    <div class="row align-items-center">
+                        <div class="col-3 text-center">
+                        
+                                <a data-bs-toggle="offcanvas" role="button" href="#offcanvasMenu" class="text-dark">
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M3 6h18M3 12h10M3 18h15" /></svg>
+                                    </span>
+                                </a>
+                        
+                        </div>
+                        <div class="col-5">
+                            <div class="logo">
+                                <a href="#"><img class="img-fluid" src="./images/Logo.png" alt="logo"></a>
+                             </div>
+                        </div>
+                        <div class="col-3 text-center">
+                            <button id="smSearchBtn">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17 17l4 4M3 11a8 8 0 1 0 16 0a8 8 0 0 0-16 0" />
+                                </svg></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- sm menu begins -->
+            </div>
+
+            <!-- offcanvas begins -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                    <a href="#"><img src="./images/Logo.png" alt=""></a>
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+
+                    <li><div class="dropdown">
+                        <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Leafy Greens</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Root Vegetables</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Exotic Vegetables</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Herbs & Spices</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Seasonal Vegetables</a></li>
+                        </ul>
+                      </div></li>
+
+                      <li><div class="dropdown">
+                        <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Why Choose Us?</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>24-Hour Support</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Privacy Policy</a></li>
+                        </ul>
+                      </div></li>
+                   
+                      <li><div class="dropdown">
+                        <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Health & Nutrition</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Recipes & Cooking Tips</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Shopping Guidance</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span> Seasonal Specials & Offers</a></li>
+                          <li><a class="dropdown-item" href="#"><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+	                        <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                    </svg>
+                          </span>Behind the Shop</a></li>
+                        </ul>
+                      </div></li>
+
+                    <li><a href="#">About Us</a></li>
+
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+              </div>
+              <!--offcanvas ends -->
+              <div>
+                <!-- Search in Sm Begins -->
+                <div class="searchSm">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="search" placeholder="Search......">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17 17l4 4M3 11a8 8 0 1 0 16 0a8 8 0 0 0-16 0" />
+                            </svg></span>
+                        </div>
+                    </form>
+                    <button type="button" class="closeBtn"><iconify-icon icon="si:close-fill" width="24" height="24"></iconify-icon></button>
+                    <div class="searchResult">
+                        <p class="results">Total Results: 100</p>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="product-card">
+                                    <div class="productImg">
+                                        <img src="./images/product-1.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="productText">
+                                        <p>Surjapur Mango</p>
+                                        <h4>$14.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="product-card">
+                                    <div class="productImg">
+                                        <img src="./images/product-2.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="productText">
+                                        <p>Green Apple</p>
+                                        <h4>$14.99 <del>$20.99</del></h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="product-card">
+                                    <div class="productImg">
+                                        <img src="./images/product-3.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="productText">
+                                        <p>Fresh Indian Malta</p>
+                                        <h4>$20.00</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="product-card">
+                                    <div class="productImg">
+                                        <img src="./images/product-4.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="productText">
+                                        <p>Red Tomatos</p>
+                                        <h4>$14.99 <del>$20.99</del></h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Search in Sm Ends -->
+              </div>
+        </section>
+        <!-- Header Mid  Ends -->
+
+        <!-- Header Bottom Begins -->
+
+        <section id="headerBottom" class="d-none d-lg-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-10">
+                        <ul class="d-flex align-items-center">
+                            <li>
+                                <div class="dropdown">
+                                    <button class="categoriesBtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                       <span class="menuIcon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M4 17.27v-1h16v1zm0-4.77v-1h16v1zm0-4.77v-1h16v1z" />
+                                    </svg></span>
+                                        All Categories
+                                        <span class="arrowIcon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path fill="currentColor" d="M12 14.708L6.692 9.4l.708-.708l4.6 4.6l4.6-4.6l.708.708z" />
+                                        </svg></span>
+                                    </button>
+                                    <ul class="dropdown-menu categoriesMenu">
+                                      <li><a class="dropdown-item" href="#">Meat</a></li>
+                                      <li><a class="dropdown-item" href="#">Vegetable</a></li>
+                                      <li><a class="dropdown-item" href="#">Food</a></li>
+                                    </ul>
+                                  </div>
+                            </li>
+                            <li class="navList"><a href="#">Home</a></li>
+        
+                            <li class="navList"><div class="dropdown navDropdown">
+                                <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Leafy Greens</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Root Vegetables</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Exotic Vegetables</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Herbs & Spices</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Seasonal Vegetables</a></li>
+                                </ul>
+                              </div></li>
+        
+                              <li class="navList"><div class="dropdown navDropdown">
+                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Why Choose Us?</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>24-Hour Support</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Privacy Policy</a></li>
+                                </ul>
+                              </div></li>
+                           
+                              <li class="navList"><div class="dropdown navDropdown">
+                                <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Health & Nutrition</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Recipes & Cooking Tips</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Shopping Guidance</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span> Seasonal Specials & Offers</a></li>
+                                  <li><a class="dropdown-item" href="#"><span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 10a2 2 0 0 0-2 2a2 2 0 0 0 2 2c1.11 0 2-.89 2-2a2 2 0 0 0-2-2" />
+                                            </svg>
+                                  </span>Behind the Shop</a></li>
+                                </ul>
+                              </div></li>
+        
+                            <li class="navList"><a href="#">About Us</a></li>
+        
+                            <li class="navList"><a href="#">Contact Us</a></li>
+        
+                            </ul>
+                    </div>
+
+                    <div class="col-lg-2 text-end">
+                        <div class="d-flex call">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" d="M12.531 20.217c-.3-.137-.599-.274-.898-.437a18.6 18.6 0 0 1-4.005-3.044a17.6 17.6 0 0 1-3.743-5.078a11 11 0 0 1-.998-3.243a5.8 5.8 0 0 1 .362-3.381a6.2 6.2 0 0 1 1.01-1.248A1.76 1.76 0 0 1 5.508 3.2c.493.074.94.332 1.248.723c.674.749 1.397 1.423 2.108 2.134c.28.24.455.58.487.948c-.012.31-.131.605-.337.836c-.237.3-.524.574-.798.86a1.5 1.5 0 0 0-.45 1.248c.172.535.467 1.023.861 1.423a34 34 0 0 0 1.485 1.883a13.3 13.3 0 0 0 3.38 2.795a1.25 1.25 0 0 0 1.249.15c.423-.237.8-.55 1.11-.923a1.64 1.64 0 0 1 1.073-.587c.374.02.726.18.986.45c.336.286.623.623.935.935s.562.537.824.823q.471.416.885.886c.214.277.317.625.287.973a2.05 2.05 0 0 1-.686 1.06a4.67 4.67 0 0 1-3.668 1.423a10.4 10.4 0 0 1-3.955-1.023Zm5.22-9.019a5.06 5.06 0 0 0-5.059-5.059m8.527 4.705a8.094 8.094 0 0 0-8.095-8.094" />
+                            </svg></span>
+                            <a href="tel: 219555-0114">(219) 555-0114</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Header Bottom Ends -->
+         <!-- Mobile Header Bottom Begins -->
+          <section id="mobileBottom" class="d-lg-none">
+            <div class="container">
+                <div class="d-flex justify-content-evenly">
+                    <a href="#" class="mobileBottomIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="m16 8.41l-4.5-4.5L4.41 11H6v8h3v-6h5v6h3v-8h1.59L17 9.41V6h-1zM2 12l9.5-9.5L15 6V5h3v4l3 3h-3v8h-5v-6h-3v6H5v-8z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="mobileBottomIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="m18.53 20l.113-.952q.113-.952.263-2.163q.03-.237.062-.458l.063-.427l.093-.836q.093-.837.243-2.048l.253-2.051l.103-.834L20.012 8v.006zM6.559 21q-.48 0-.826-.28q-.348-.28-.348-.72h12.537q.27 0 .462-.173t.23-.442l1.303-10.687q.038-.27-.154-.48t-.462-.212h-2.538l-.314 2.529q-.03.213-.192.345t-.375.12q-.195-.011-.326-.17q-.132-.159-.101-.353l.302-2.471h-4.994l-.314 2.523q-.03.213-.192.348T9.88 11q-.194-.012-.329-.173t-.104-.356l.302-2.465H6.673q.08-.523.525-.765Q7.642 7 8.173 7h1.693l.057-.5q.2-1.663 1.163-2.582T13.712 3q1.465 0 2.393 1.11t.787 2.582L16.854 7h2.588q.67.006 1.116.508q.446.501.36 1.17l-1.327 10.77q-.081.673-.586 1.113T17.827 21zm4.308-14h4.994l.038-.308Q16 5.617 15.316 4.81Q14.633 4 13.577 4q-1.183 0-1.849.653T10.923 6.5zm-4.75 10.385h-3.5q-.214 0-.357-.144t-.143-.356t.143-.357t.357-.143h3.5q.213 0 .356.143q.144.143.144.357q0 .213-.144.356q-.143.144-.356.144m3-3.77h-4.5q-.214 0-.357-.143t-.143-.356t.143-.357t.357-.143h4.5q.213 0 .356.143q.144.143.144.357q0 .213-.144.356q-.143.144-.356.144" />
+                        </svg>
+                    </a>
+                    <a href="#" class="mobileBottomIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M5.911 6.964c1.524-1.6 3.697-1.55 5.189-.253a1.375 1.375 0 0 0 1.796 0c1.491-1.298 3.666-1.346 5.188.253c.887 1.133 1.196 2.178 1.164 3.137c-.033.982-.426 1.958-1.086 2.922c-1.335 1.953-3.624 3.67-5.557 5.033a1.05 1.05 0 0 1-1.214 0c-1.919-1.356-4.208-3.074-5.547-5.028c-.661-.966-1.057-1.944-1.091-2.926c-.035-.96.272-2.006 1.158-3.138m6.087-1.458C9.933 3.782 6.88 3.74 4.796 5.96l-.022.024l-.02.025c-1.09 1.38-1.55 2.775-1.5 4.146c.048 1.355.59 2.606 1.353 3.72c1.511 2.208 4.02 4.065 5.918 5.406c.885.625 2.06.625 2.945.001c1.911-1.348 4.422-3.206 5.93-5.412c.762-1.114 1.301-2.364 1.347-3.718c.046-1.37-.416-2.763-1.506-4.143l-.02-.025l-.022-.024c-2.083-2.22-5.138-2.178-7.201-.454" />
+                        </svg>
+                    </a>
+                    <a href="#" class="mobileBottomIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd" d="M7.75 7.5a4.25 4.25 0 1 1 8.5 0a4.25 4.25 0 0 1-8.5 0M12 4.75a2.75 2.75 0 1 0 0 5.5a2.75 2.75 0 0 0 0-5.5m-4 10A2.25 2.25 0 0 0 5.75 17v1.188c0 .018.013.034.031.037c4.119.672 8.32.672 12.438 0a.04.04 0 0 0 .031-.037V17A2.25 2.25 0 0 0 16 14.75h-.34a.3.3 0 0 0-.079.012l-.865.283a8.75 8.75 0 0 1-5.432 0l-.866-.283a.3.3 0 0 0-.077-.012zM4.25 17A3.75 3.75 0 0 1 8 13.25h.34q.28.001.544.086l.866.283a7.25 7.25 0 0 0 4.5 0l.866-.283c.175-.057.359-.086.543-.086H16A3.75 3.75 0 0 1 19.75 17v1.188c0 .754-.546 1.396-1.29 1.517a40.1 40.1 0 0 1-12.92 0a1.54 1.54 0 0 1-1.29-1.517z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+          </section>
+         <!-- Mobile Header Bottom Ends -->
+
+     </header>
+    <!-- HEADER ENDS -->
+
+     <!-- Main Content Begins -->
+     <main>
+        <!-- Banner lg Begins -->
+        <section id="banner">
+
+            <div class="slider">
+                <div class="slide">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 col-12 bannerImg">
+                                <img src="./images/Image.png" alt="" class="img-fluid">
+                                <div class="discount">
+                                    <div class="row">
+                                       <p>70%</p>
+                                       <span>OFF</span>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-lg-5 col-12 text-start bannerText">
+                                <p>Welcome to shopery</p>
+                                <h1>Fresh & Healthy
+                                   Organic Food</h1>
+                                <h6>Free shipping on all your order. we deliver, you enjoy</h6>
+                                <div class="shopNowbtn">
+                                    <a href="#"><button class="keyBtn">Shop Now<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12.646 6.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708l4.147-4.146H6a.5.5 0 0 1 0-1h10.793l-4.147-4.146a.5.5 0 0 1 0-.708" />
+                                    </svg></span></button></a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 col-12 bannerImg">
+                                <img src="./images/Image.png" alt="" class="img-fluid">
+                                <div class="discount">
+                                    <div class="row">
+                                       <p>70%</p>
+                                       <span>OFF</span>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-lg-5 col-12 text-start bannerText">
+                                <p>Welcome to shopery</p>
+                                <h1>Fresh & Healthy
+                                   Organic Food</h1>
+                                <h6>Free shipping on all your order. we deliver, you enjoy</h6>
+                                <div class="shopNowbtn">
+                                    <a href="#"><button class="keyBtn">Shop Now<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12.646 6.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708l4.147-4.146H6a.5.5 0 0 1 0-1h10.793l-4.147-4.146a.5.5 0 0 1 0-.708" />
+                                    </svg></span></button></a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 col-12 bannerImg">
+                                <img src="./images/Image.png" alt="" class="img-fluid">
+                                <div class="discount">
+                                    <div class="row">
+                                       <p>70%</p>
+                                       <span>OFF</span>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-lg-5 col-12 text-start bannerText">
+                                <p>Welcome to shopery</p>
+                                <h1>Fresh & Healthy
+                                   Organic Food</h1>
+                                <h6>Free shipping on all your order. we deliver, you enjoy</h6>
+                                <div class="shopNowbtn">
+                                    <a href="#"><button class="keyBtn">Shop Now<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M12.646 6.646a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708l4.147-4.146H6a.5.5 0 0 1 0-1h10.793l-4.147-4.146a.5.5 0 0 1 0-.708" />
+                                    </svg></span></button></a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="iconify-icon arrows leftArrows" id="bannerLeftArrow"><iconify-icon
+                    icon="pepicons-pencil:arrow-left" width="20" height="20"></iconify-icon></button>
+            <button class="iconify-icon arrows rightArrows" id="bannerRightArrow"><iconify-icon
+                    icon="pepicons-pencil:arrow-right" width="20" height="20"></iconify-icon></button>
+
+        </section>  
+        <!-- Banner lg Ends -->
+         <!-- Featured Begins -->
+    <section  id="features" class="d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 featuresRow">
+                    <div class="featuresCart">
+                        <div class="featuresIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7.5 19q-1.038 0-1.77-.73T5 16.5H2.77l.218-1h2.268q.271-.667.875-1.084Q6.735 14 7.5 14t1.37.416q.603.417.874 1.084h4.618L16.558 6H5.608l.023-.098q.073-.392.38-.647T6.735 5h11.073l-.81 3.5h2.079l2.712 3.616l-.866 4.384h-1.154q0 1.039-.73 1.77t-1.77.73t-1.769-.73t-.73-1.77H10q0 1.039-.73 1.77T7.5 19m8.387-5.75h4.651l.177-.89l-2.138-2.86h-1.818zm.428-6.248L16.559 6l-2.197 9.5l.243-1.002l.792-3.496zM1.674 12.998l.25-1h4.48l-.25 1zm2-3.496l.25-1h5.48l-.25 1zM7.5 18q.617 0 1.059-.441Q9 17.117 9 16.5t-.441-1.059T7.5 15t-1.059.441Q6 15.883 6 16.5t.441 1.059Q6.883 18 7.5 18m9.77 0q.617 0 1.058-.441q.441-.442.441-1.059t-.441-1.059T17.269 15t-1.058.441q-.442.442-.442 1.059t.441 1.059q.442.441 1.06.441" />
+                            </svg>
+                        </div>
+                        <div class="featuresCtn">
+                            <h5>Free Shipping</h5>
+                            <p>Free shipping with discount</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12 featuresRow">
+                    <div class="featuresCart">
+                        <div class="featuresIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" fill-rule="evenodd" d="M12 3.75c-3.241 0-5.756 2.03-6.185 4.5H8a.75.75 0 0 1 .75.75v7a.75.75 0 0 1-.75.75H5A2.75 2.75 0 0 1 2.25 14v-3a2.75 2.75 0 0 1 2.035-2.656C4.667 4.84 8.074 2.25 12 2.25s7.333 2.59 7.715 6.094A2.75 2.75 0 0 1 21.75 11v3a2.75 2.75 0 0 1-2.045 2.659A4.75 4.75 0 0 1 15 20.75h-1.145a2 2 0 1 1 0-1.5H15a3.25 3.25 0 0 0 3.163-2.5H16a.75.75 0 0 1-.75-.75V9a.75.75 0 0 1 .75-.75h2.185c-.429-2.47-2.944-4.5-6.185-4.5m-7 6c-.69 0-1.25.56-1.25 1.25v3c0 .69.56 1.25 1.25 1.25h2.25v-5.5zM20.25 11c0-.69-.56-1.25-1.25-1.25h-2.25v5.5H19c.69 0 1.25-.56 1.25-1.25z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="featuresCtn">
+                            <h5>Great Support 24/7</h5>
+                            <p>Instant access to Contact</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12 featuresRow">
+                    <div class="featuresCart">
+                        <div class="featuresIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" fill-rule="evenodd" d="M12 2.75A2.25 2.25 0 0 0 9.75 5v.26c.557-.01 1.168-.01 1.84-.01h.821c.67 0 1.282 0 1.84.01V5A2.25 2.25 0 0 0 12 2.75m3.75 2.578V5a3.75 3.75 0 1 0-7.5 0v.328q-.214.018-.414.043c-1.01.125-1.842.387-2.55.974S4.168 7.702 3.86 8.672c-.3.94-.526 2.147-.81 3.666l-.021.11c-.402 2.143-.718 3.832-.777 5.163c-.06 1.365.144 2.495.914 3.422c.77.928 1.843 1.336 3.195 1.529c1.32.188 3.037.188 5.218.188h.845c2.18 0 3.898 0 5.217-.188c1.352-.193 2.426-.601 3.196-1.529s.972-2.057.913-3.422c-.058-1.331-.375-3.02-.777-5.163l-.02-.11c-.285-1.519-.512-2.727-.81-3.666c-.31-.97-.72-1.74-1.428-2.327c-.707-.587-1.54-.85-2.55-.974a11 11 0 0 0-.414-.043M8.02 6.86c-.855.105-1.372.304-1.776.64c-.403.334-.694.805-.956 1.627c-.267.84-.478 1.958-.774 3.537c-.416 2.217-.711 3.8-.764 5.013c-.052 1.19.14 1.88.569 2.399c.43.517 1.073.832 2.253 1c1.2.172 2.812.174 5.068.174h.72c2.257 0 3.867-.002 5.068-.173c1.18-.169 1.823-.484 2.253-1.001c.43-.518.621-1.208.57-2.4c-.054-1.211-.349-2.795-.765-5.012c-.296-1.58-.506-2.696-.774-3.537c-.262-.822-.552-1.293-.956-1.628s-.92-.534-1.776-.64c-.876-.108-2.013-.109-3.62-.109h-.72c-1.607 0-2.744.001-3.62.11m6.478 5.08a.75.75 0 0 1 .063 1.058l-2.667 3a.75.75 0 0 1-1.062.06l-1.334-1.2a.75.75 0 0 1 1.004-1.116l.772.696l2.166-2.436a.75.75 0 0 1 1.058-.063" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div class="featuresCtn">
+                            <h5>100% Sucure Payment</h5>
+                            <p>We ensure your money is save</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-12 featuresRow">
+                    <div class="featuresCart">
+                        <div class="featuresIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.578 3.382l2 1.05c2.151 1.129 3.227 1.693 3.825 2.708C22 8.154 22 9.417 22 11.942v.117c0 2.524 0 3.787-.597 4.801c-.598 1.015-1.674 1.58-3.825 2.709l-2 1.049C13.822 21.539 12.944 22 12 22s-1.822-.46-3.578-1.382l-2-1.05c-2.151-1.129-3.227-1.693-3.825-2.708C2 15.846 2 14.583 2 12.06v-.117c0-2.525 0-3.788.597-4.802c.598-1.015 1.674-1.58 3.825-2.708l2-1.05C10.178 2.461 11.056 2 12 2s1.822.46 3.578 1.382ZM21 7.5l-4 2M12 12L3 7.5m9 4.5v9.5m0-9.5l4.5-2.25l.5-.25m0 0V13m0-3.5l-9.5-5" />
+                            </svg>
+                        </div>
+                        <div class="featuresCtn">
+                            <h5>Money-Back Guarantee</h5>
+                            <p>30 days money-back guarantee</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!-- Featured Ends -->
+        <!-- Product Section  Begins -->
+      <section id="product">
+        <div class="container mixitup">
+            <!-- Product Heading Begins -->
+            <div class="heading">
+                <h2>Introducing Our Products</h2>
+                <div class="productBtn">
+                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter=".vegetable">Vegetable</button>
+                    <button type="button" data-filter=".fruit">Fruit</button>
+                    <button type="button" data-filter=".meat&fish">Meat & Fish</button>
+                    <button type="button" data-filter=".viewAll">View All</button>
+                </div>
+            </div>
+            <!-- Product Heading Ends -->
+
+            <div class="allProduct">
+                <div class="row allItem">
+                    <!-- allItems Begins -->
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll fruit " data-order="1">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 1.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Green Apple</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll fruit " data-order="2">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 2.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Surjapur Mango</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll vegetable " data-order="3">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 3.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Red Tomatos</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll vegetable " data-order="4">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 4.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Fresh Cauliflower</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll vegetable " data-order="5">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 5.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Green Lettuce</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll vegetable " data-order="6">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 6.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Eggplant</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll vegetable " data-order="7">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 7.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Green Chilli</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-6 pro p-0 mix all viewAll vegetable " data-order="8">
+                        <a href="#">
+                            <div class="all " >
+                                <div class="img-div"><img class="img-fluid" src="./images/Item 8.png" alt=""></div>
+                                <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                                    <div class=" col-8 p-0">
+                                        <h4>Eggplant</h4>
+                                        <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                        <span class="pt-2">
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                            <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                        </span>
+                                    </div>
+                                    <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                                <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="over-off">
+                                    <div class="off">Sale 50%</div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="overlay-content">
+                                        <div class="over1">
+                                            <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                        </div>
+                                        <div class="over2">
+                                            <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- allItems Ends -->
+                </div>
+            </div>
+
+        </div>
+      </section>
+     <!-- Product Section  Ends  -->
+
+
+      <!-- Banner 2 Section Begins -->
+<section id="banner2" class="d-none d-lg-block">
+    <div class="container">
+      <div class="row">
+        <!-- Ads 1 -->
+        <div class="col-lg-4 col-12 ads1">
+          <div class="banner2Img">
+            <a href="#"><img class="img-fluid" src="./images/Banner2 Img1.png" alt="100% Fresh Cow Milk"></a>
+          </div>
+        </div>
+        <!-- Ads 2 -->
+        <div class="col-lg-4 col-12 ads2">
+          <div class="banner2Img">
+            <a href="#"><img class="img-fluid" src="./images/Banner2 Img2.png" alt="Water & Soft Drinks"></a>
+          </div>
+        </div>
+        <!-- Ads 3 -->
+        <div class="col-lg-4 col-12 ads3">
+          <div class="banner2Img">
+            <a href="#"><img class="img-fluid" src="./images/Banner2 Img3.png" alt="Quick Breakfast"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner 2 Section Ends -->
+  <!-- Best Deal Section  Begins -->
+  <section id="bestDeals">
+    <div class="container">
+       <div class="row align-items-center">
+          <div class="col-lg-4">
+             <img class="img-fluid" src="./images/best deal img1.png" alt="">
+          </div>
+          <div class="col-lg-4 text-center middleItems">
+             <p>Best Deals</p>
+             <h2>Our Special Products Deal of the Month</h2>
+             <div class="countTime d-flex">
+                <div>
+                   <p id="days">00</p>
+                   <span>Days</span>
+                </div>
+                <div>
+                   <p id="hours">00</p>
+                   <span>Hours</span>
+                </div>
+                <div>
+                   <p id="mins">00</p>
+                   <span>Mins</span>
+                </div>
+                <div>
+                   <p id="secs">00</p>
+                   <span>Secs</span>
+                </div>
+             </div>
+             <a href="#"><button>Shop Now <iconify-icon
+                      icon="ri:arrow-right-line"></iconify-icon></button></a>
+          </div>
+          <div class="col-lg-4 leftImg">
+             <img class="img-fluid" src="./images/best deal img2.png" alt="">
+          </div>
+       </div>
+    </div>
+ </section>
+  <!-- Best Deal Section  Ends -->
+<!-- Featured2 Products Begins -->
+ <section id="featured2">
+    <div class="container">
+        <h2>Featured Products</h2>
+
+        <div class="featured2Items ">
+            <div class="row allItem ">
+                <!-- allItems Begins -->
+                <div class="col-lg-3 col-6 pro p-0" data-order="1">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 1.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Green Apple</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 pro p-0" data-order="2">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 2.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Surjapur Mango</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 pro p-0" data-order="3">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 3.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Red Tomatos</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 pro p-0" data-order="4">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 4.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Fresh Cauliflower</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 pro p-0" data-order="5">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 5.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Green Lettuce</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 pro p-0" data-order="6">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 6.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Eggplant</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 pro p-0" data-order="7">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 7.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Green Chilli</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 pro p-0" data-order="8">
+                    <div class="all " >
+                        <div class="img-div"><img class="img-fluid" src="./images/Item 8.png" alt=""></div>
+                        <div class="row justify-content-between align-items-center px-4 cnt m-0">
+                            <div class=" col-8 p-0">
+                                <h4>Eggplant</h4>
+                                <p>$14.99<span class="ms-2">$20.99</span> </p>
+                                <span class="pt-2">
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate" width="20" height="20"></iconify-icon>
+                                    <iconify-icon style="color: goldenrod;" icon="material-symbols-light:star-rate-outline" width="20" height="20"></iconify-icon>
+                                </span>
+                            </div>
+                            <div class="col-4 p-0 bag d-flex justify-content-center align-items-center ">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+                                        <path fill="currentColor" d="m235.92 198.59l-14.26-120a12 12 0 0 0-12-10.59H172v-4a44 44 0 0 0-88 0v4H46.33a12 12 0 0 0-12 10.59l-14.26 120a12 12 0 0 0 2.93 9.35a12.1 12.1 0 0 0 9.08 4.06h191.84a12.1 12.1 0 0 0 9.06-4.06a12 12 0 0 0 2.94-9.35M92 64a36 36 0 0 1 72 0v4H92Zm135 138.63a4.08 4.08 0 0 1-3.08 1.37H32.08a4.08 4.08 0 0 1-3.08-1.37a3.9 3.9 0 0 1-1-3.09l14.25-120a4 4 0 0 1 4-3.54H84v28a4 4 0 0 0 8 0V76h72v28a4 4 0 0 0 8 0V76h37.67a4 4 0 0 1 4.05 3.54l14.25 120a3.9 3.9 0 0 1-.97 3.09" />
+                                    </svg>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="over-off">
+                            <div class="off">Sale 50%</div>
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="over1">
+                                    <span class="iconify-icon"><iconify-icon icon="mynaui:heart" width="18" height="18"></iconify-icon></span>
+                                </div>
+                                <div class="over2">
+                                    <a href="#"><iconify-icon icon="iconamoon:eye" width="18" height="18"></iconify-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- allItems Ends -->
+            </div>
+        </div>
+
+        <button class="iconify-icon arrows leftArrows" id="featuredLeftArrow"><iconify-icon
+            icon="pepicons-pencil:arrow-left" width="20" height="20"></iconify-icon></button>
+    <button class="iconify-icon arrows rightArrows" id="featuredRightArrow"><iconify-icon
+            icon="pepicons-pencil:arrow-right" width="20" height="20"></iconify-icon></button>
+
+        
+    </div>
+ </section>
+<!-- Featured2 Products Ends -->
+<!-- Review Section Begins -->
+<section id="review" class="">
+    <div class="container">
+       <h2 class="head">What our Clients Says</h2>
+       <div class="row">
+          <div class="col-lg-4 col-12">
+             <div class="reviewCnt text-center">
+                <img class="img-fluid" src="./images/evenodd.png">
+                <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed
+                   sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+             </div>
+             <div class="client text-center mt-3">
+                <img class="img-fluid" src=".//images/reviewImg1.png">
+                <p>Jenny Wilson</p>
+                <span>Customer</span>
+             </div>
+          </div>
+          <div class="col-lg-4 col-12">
+             <div class="reviewCnt text-center">
+                <img class="img-fluid" src="./images/evenodd.png">
+                <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed
+                   sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+             </div>
+             <div class="client text-center mt-3">
+                <img class="img-fluid" src="./images/reviewImg2.png">
+                <p>Guy Hawkins</p>
+                <span>Customer</span>
+             </div>
+          </div>
+          <div class="col-lg-4 col-12">
+             <div class="reviewCnt text-center">
+                <img class="img-fluid" src="./images/evenodd.png">
+                <p>“Aenean et nisl eget eros consectetur vestibulum vel id erat. Aliquam feugiat massa dui. Sed
+                   sagittis diam sit amet ante sodales semper. Aliquam commodo lorem laoreet ultricies ele. ”</p>
+             </div>
+             <div class="client text-center mt-3">
+                <img class="img-fluid" src="./images/reviewImg3.png">
+                <p>Kathryn Murphy</p>
+                <span>Customer</span>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+<!-- Review Section Ends -->
+
+<!-- Video Player Section Begins -->
+ <section id="video">
+    <div class="container">
+        <img class="img-fluid" src="./images/Video.png" alt="">
+    </div>
+ </section>
+
+<!-- Video Player Section Ends -->
+
+<!-- Blog Section Begins -->
+<section id="blog">
+    <div class="container">
+        <div class="blogCnt">
+            <h2>Latest News</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img blogImg src="./images/BlogImg1.png" class="card-img-top" alt="...">
+                    <div class="date">
+                        <p>23</p>
+                        <span>Jan</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Nulla libero lorem, euismod venenatis nibh sed, sodales dictum ex. Etiam nisi augue, malesuada et pulvinar at, posuere eu neque.</p>
+                      <a href="#">Read More <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd" d="M13.47 5.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 1 1-1.06-1.06l4.72-4.72H4a.75.75 0 0 1 0-1.5h14.19l-4.72-4.72a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
+                    </svg></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img blogImg src="./images/BlogImg2.png" class="card-img-top" alt="...">
+                    <div class="date">
+                        <p>23</p>
+                        <span>Jan</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                      <a href="#">Read More <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd" d="M13.47 5.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 1 1-1.06-1.06l4.72-4.72H4a.75.75 0 0 1 0-1.5h14.19l-4.72-4.72a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
+                    </svg></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./images/BlogImg3.png" class="card-img-top" alt="...">
+                    <div class="date">
+                        <p>23</p>
+                        <span>Jan</span>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                      <a href="#">Read More <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd" d="M13.47 5.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 1 1-1.06-1.06l4.72-4.72H4a.75.75 0 0 1 0-1.5h14.19l-4.72-4.72a.75.75 0 0 1 0-1.06" clip-rule="evenodd" />
+                    </svg></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section Ends -->
+ <!-- Newsletter Section Begins -->
+<section id="newsletter">
+    <div class="container">
+        <div class="row align-items-center newsletterRow">
+            <div class="col-lg-3 col newsletterLogo">
+                <img src="./images/Logo.png" alt="">
+            </div> 
+            <div class="col-lg-5 col newsletterText">
+                <h3>Subcribe our Newsletter</h3>
+                <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+            </div>
+            <div class="col-lg-4 col newsletterForm">
+                <form action="">
+                    <div class="d-flex inputBox">
+                       <input type="email" placeholder="Your email address">
+                       <button class="keyBtn">Subscribe</button>
+                    </div>
+                 </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Newsletter Section Ends -->  
+    </main>
+     <!-- Main Content Ends -->
+      <!-- Footer Section Begins -->
+      <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- About Shopery Begins -->
+                    <div class="col-lg-3 text-center text-lg-start shopery">
+                        <h3>About Shopery</h3>
+                        <p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
+                        <div class="number d-flex">
+                            <span><a href="tel:555-0114">(219) 555-0114</a> or</span>
+                            <span><a href="mailto:Proxy@gmail.com">Proxy@gmail.com</a></span>
+                        </div>
+                    </div>
+                    <!-- About Shopery Ends -->
+                    <!-- My Account Begins -->
+                    <div class="col-lg-2 account">
+                        <h3>My Account</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Shoping Cart</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </div>
+                    <!-- My Account Ends -->
+                    <!-- Helps Begins -->
+                    <div class="col-lg-2 helps">
+                        <h3>Helps</h3>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <!-- Helps Ends -->
+                     <!-- Proxy Begins -->
+                    <div class="col-lg-2 proxy">
+                        <h3>Proxy</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Products Details</a></li>
+                            <li><a href="#">Track Order</a></li>
+                        </ul>
+                    </div>
+                     <!-- Proxy Ends -->
+                    <!-- Instagram Begins -->
+                    <div class="col-lg-3 instagram">
+                        <h3>Instagram</h3>
+                        <div class="instagram-grid">
+                            <div class="grid-item"><a href="#"><img src="./images/insta1.png" alt="Image 1"></a></div>
+                            <div class="grid-item"><a href="#"><img src="./images/insta2.png" alt="Image 2"></a></div>
+                            <div class="grid-item"><a href="#"><img src="./images/insta3.png" alt="Image 3"></a></div>
+                            <div class="grid-item"><a href="#"><img src="./images/insta4.png" alt="Image 4"></a></div>
+                            <div class="grid-item"><a href="#"><img src="./images/insta5.png" alt="Image 5"></a></div>
+                            <div class="grid-item"><a href="#"><img src="./images/insta6.png" alt="Image 6"></a></div>
+                            <div class="grid-item"><a href="#"><img src="./images/insta7.png" alt="Image 7"></a></div>
+                            <div class="grid-item"><a href="#"><img src="./images/insta8.png" alt="Image 8"></a></div>
+                        </div>
+                    </div>
+                    <!-- Instagram Ends -->
+                </div>
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-lg-4 text-start social-icons">
+                            <a href="#">
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6z" clip-rule="evenodd" />
+                        </svg></span>
+                                        </a>
+                        <a href="#">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23" />
+                            </svg></span>
+                        </a>
+                        <a href="#">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-4.5 -2 24 24">
+                                <path fill="currentColor" d="M6.17 13.097c-.506 2.726-1.122 5.34-2.95 6.705c-.563-4.12.829-7.215 1.475-10.5c-1.102-1.91.133-5.755 2.457-4.808c2.86 1.166-2.477 7.102 1.106 7.844c3.741.774 5.269-6.683 2.949-9.109C7.855-.272 1.45 3.15 2.238 8.163c.192 1.226 1.421 1.598.491 3.29C.584 10.962-.056 9.22.027 6.897C.159 3.097 3.344.435 6.538.067c4.04-.466 7.831 1.527 8.354 5.44c.59 4.416-1.823 9.2-6.142 8.855c-1.171-.093-1.663-.69-2.58-1.265" />
+                            </svg></span>
+                        </a>
+                        <a href="#">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                            </svg></span>
+                        </a>
+                        </div>
+                        <div class="col-lg-4 text-center copyright-text">
+                                         <p>Shopery eCommerce © 2021. All Rights Reserved</p>
+                        </div>
+                        <div class="col-lg-4  payment"> 
+                        <a href="#"><img class="img-fluid" src="./images/ApplePay.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="./images/visa-logo.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="./images/DISC-VER.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="./images/Mastercard.png" alt=""></a>
+                        <a href="#"><img class="img-fluid" src="./images/Cart.png" alt=""></a>
+                            </div>
+                    </div>
+            </div>
+
+        </div>
+        </section>
+      </footer>
+     <!-- Footer Section Ends -->
+
+
+    <!-- Script Link-Up Begins -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.countdown.min.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.2.0/iconify-icon.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

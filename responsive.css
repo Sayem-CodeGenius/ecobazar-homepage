@@ -1,0 +1,73 @@
+@media (max-width: 991px) {
+
+/* mobile banner begins*/
+ #banner{
+	margin-bottom: 50px ;
+ }
+
+    #banner .bannerImg .discount {
+        width: 60px;
+        height: 60px;
+        top: 20px;
+        right: 40px;
+    }
+      
+    #banner .bannerImg .discount p {
+        font-size: 16px;
+    }
+      
+#banner .bannerImg .discount span {
+        font-size: 10px;
+    }
+
+ #banner .bannerText p {
+        font-size: 15px;
+        text-align: left;
+    }
+      
+    #banner .bannerText h1 {
+        font-weight: 600;
+        font-size: 45px;
+        margin: 10px 0;
+        text-align: left;
+    }
+      
+    #banner .bannerText h6 {
+        font-size: 22px;
+        margin: 0px 0 32px;
+        text-align: left;
+    }
+      
+    
+    #banner .arrows {
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        top: 25%;
+    }
+      
+      .leftArrows {
+        left: 2%;
+      }
+      .rightArrows {
+        right: 2%;
+      }
+
+
+/* Product Begins */
+#product h2{
+    font-size: 20px;
+    padding: 50px 0 24px ;
+    text-align: center;
+    }
+
+/* mobile banner ends
+      
+    
+
+
+
+
+
+
+}
